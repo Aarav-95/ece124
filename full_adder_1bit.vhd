@@ -9,7 +9,7 @@ use ieee.std_logic_1164.all;
 -- 1bit adder entity port map
 entity full_adder_1bit is
 port (
-	input_b, input_a, carry_in 						:	in std_logic; -- Input: 2 1-bit inputs and 1-bit carry
+	input_b, input_a, carry_in 			:	in std_logic; -- Input: 2 1-bit inputs and 1-bit carry
 	full_adder_carry_output, full_adder_sum_output  :	out std_logic -- Output: 1-bit carry and 1-bit sum
 );
 
