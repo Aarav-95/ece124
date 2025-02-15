@@ -10,10 +10,10 @@ use ieee.std_logic_1164.all;
 entity logic_processor is
 port (
 	-- Inputs: 2 4-bit vectors representing the switches and 2-bit multiplexer select vector
-	logic_in0, logic_in1 						: in std_logic_vector(3 downto 0);
-	logic_select								: in std_logic_vector(1 downto 0);
+	logic_in0, logic_in1 					: in std_logic_vector(3 downto 0);
+	logic_select						: in std_logic_vector(1 downto 0);
 	-- Output: 1 4-bit vector
-	logic_out									: out std_logic_vector(3 downto 0)
+	logic_out						: out std_logic_vector(3 downto 0)
 );
 
 end logic_processor;
